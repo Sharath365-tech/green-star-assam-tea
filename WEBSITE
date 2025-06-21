@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Star Assam Tea</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1601987077429-cfb01869ce36') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.92);
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #2e7d32;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-card h3 {
+      margin: 15px 0 5px;
+      font-size: 20px;
+      color: #444;
+    }
+
+    .product-card p {
+      margin: 5px 10px;
+      font-size: 15px;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 8px 15px;
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: #1ebc59;
+    }
+
+    .address {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .address p {
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+
+    <header>
+      <h1>Green Star Assam Tea</h1>
+      <p>Wholesale Tea Powder & Lamsa Mix Suppliers<br>చిల్లిగొట్టే టీ పొడి & లంసా మిక్స్ విక్రయము</p>
+    </header>
+
+    <div class="container">
+      <h2>Our Products / మా ఉత్పత్తులు</h2>
+      <div class="products">
+
+        <!-- Tea Powder 5Kg -->
+        <div class="product-card">
+          <img src="5kg-tea.png" alt="Tea Powder 5kg" />
+          <h3>Assam Tea Powder - 5 Kg</h3>
+          <p>అస్సాం టీ పొడి - 5 కిలోల సంచీ</p>
+          <p>₹1400</p>
+          <a class="buy-btn" href="https://wa.me/918125542365?text=Hi, I want to order Assam Tea Powder 5Kg - ₹1400" target="_blank">Buy on WhatsApp</a>
+        </div>
+
+        <!-- Tea Powder 1Kg -->
+        <div class="product-card">
+          <img src="download.jpg" alt="Tea Powder 1kg" />
+          <h3>Assam Tea Powder - 1 Kg</h3>
+          <p>అస్సాం టీ పొడి - 1 కిలో</p>
+          <p>₹300</p>
+          <a class="buy-btn" href="https://wa.me/918125542365?text=Hi, I want to order Assam Tea Powder 1Kg - ₹300" target="_blank">Buy on WhatsApp</a>
+        </div>
+
+        <!-- Tea Powder 500g -->
+        <div class="product-card">
+          <img src="download(1).jpg" alt="Tea Powder 500g" />
+          <h3>Assam Tea Powder - 500 g</h3>
+          <p>అస్సాం టీ పొడి - 500 గ్రాములు</p>
+          <p>₹150</p>
+          <a class="buy-btn" href="https://wa.me/918125542365?text=Hi, I want to order Assam Tea Powder 500g - ₹150" target="_blank">Buy on WhatsApp</a>
+        </div>
+
+        <!-- Tea Powder 100g -->
+        <div class="product-card">
+          <img src="download.jpg" alt="Tea Powder 100g" />
+          <h3>Assam Tea Powder - 100 g</h3>
+          <p>అస్సాం టీ పొడి - 100 గ్రాములు</p>
+          <p>₹30</p>
+          <a class="buy-btn" href="https://wa.me/918125542365?text=Hi, I want to order Assam Tea Powder 100g - ₹30" target="_blank">Buy on WhatsApp</a>
+        </div>
+
+        <!-- Lamsa Mix 1Kg -->
+        <div class="product-card">
+          <img src="download(2).jpg" alt="Lamsa Mix 1kg" />
+          <h3>Lamsa Mix - 1 Kg</h3>
+          <p>లంసా మిక్స్ - 1 కిలో</p>
+          <p>₹320</p>
+          <a class="buy-btn" href="https://wa.me/918125542365?text=Hi, I want to order Lamsa Mix 1Kg - ₹320" target="_blank">Buy on WhatsApp</a>
+        </div>
+
+        <!-- Lamsa Mix 500g -->
+        <div class="product-card">
+          <img src="download(3).jpg" alt="Lamsa Mix 500g" />
+          <h3>Lamsa Mix - 500 g</h3>
+          <p>లంసా మిక్స్ - 500 గ్రాములు</p>
+          <p>₹160</p>
+          <a class="buy-btn" href="https://wa.me/918125542365?text=Hi, I want to order Lamsa Mix 500g - ₹160" target="_blank">Buy on WhatsApp</a>
+        </div>
+
+      </div>
+
+      <div class="address">
+        <h2>Contact & Address / సంప్రదించండి</h2>
+        <p><strong>Address:</strong> New Bus Stand Outgate, Zinambad Road, Vaninagar, Jagtial, Telangana - 505327</p>
+        <p><strong>Phone:</strong> 8125542365</p>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2025 Green Star Assam Tea. All rights reserved.
+    </footer>
+
+  </div>
+</body>
+</html>
